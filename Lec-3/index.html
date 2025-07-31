@@ -1,0 +1,23 @@
+<!-- we are printing hello world in console using js -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lec-3</title>
+</head>
+<body>
+   <div class="root">
+       <h2>hello from html </h2>
+   </div>
+   
+   <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+   <!-- ReactDOM -->
+   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+   <script>
+    const heading =React.createElement("h1","{}","hello from react using cdn")
+    const root=ReactDOM.createRoot(document.querySelector(".root"))
+    root.render(heading)
+   </script>
+</body>
+</html>
