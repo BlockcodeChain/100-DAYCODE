@@ -1,0 +1,11 @@
+.root{
+    color:white;
+    margin:0 auto;
+    font-size: 80px;
+}
+
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
